@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La balise form</title>
+  </head>
+  <body>
+    <p>Mon premier formulaire</p>
+
+    <form method="post" action="#">
+      <label for="email">Adesse mail: </label>
+      <input
+        name="email"
+        id="email"
+        placeholder="example@mail.com"
+        type="text"
+        required
+      />
+      <br />
+      <input name="has_accept_rgpd" id="checkbox" type="checkbox" required />
+      <label for="checkbox">Accepter la politique RGPD</label>
+      <br />
+      <label>
+        <input name="has_accept_partners_offers" type="checkbox" />
+        Souhaitez-vous recevoir les offres de nos partenaires ?
+      </label>
+      <br />
+      <button type="submit">Envoyer les données</button>
+      <button type="reset">Effacer les données</button>
+    </form>
+  </body>
+</html>

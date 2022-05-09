@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iframe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p>Premier iframe</p>
+
+    <iframe
+      id="monIframe"
+      title="Mon premier Iframe"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+    ></iframe>
+
+    <p>Iframe youtube "nettoyé"</p>
+
+    <iframe
+      id="iframeYoutube"
+      src="https://www.youtube.com/embed/jNQXAC9IVRw"
+      title="YouTube video player"
+      frameborder="1"
+      allow="fullscreen"
+    ></iframe>
+
+    <p>Iframe avec des paramètres</p>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/jNQXAC9IVRw?start=8&end=10"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <p>Iframe qui ne fonctionne pas</p>
+    <iframe
+      width="300"
+      height="300"
+      src="https://www.gmail.com/"
+      frameborder="0"
+    ></iframe>
+    <a href="https://www.gmail.com/" target="_blank">Ouvrir gmail</a>
+  </body>
+</html>
