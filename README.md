@@ -19,17 +19,17 @@ Si vous n'avez pas les bases en HTML & CSS je vous invite à suivre la première
 
 ## Planning - HTML & CSS
 
-| Numéro | Date       | Heure     | Titre                                                                                               | Replay                |
-| ------ | ---------- | --------- | --------------------------------------------------------------------------------------------------- | --------------------- |
-| 01     | 09/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 1/10 - HTML iframes et formulaires                                 | Pas encore disponible |
-| 02     | 10/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé ) - 2/10 - Le SVG                                                     | Pas encore disponible |
-| 03     | 12/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 3/10 - Le SVG                                                      | Pas encore disponible |
-| 04     | 16/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 4/10 - CSS les unités                                              | Pas encore disponible |
-| 05     | 18/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 5/10 - Flexbox                                                     | Pas encore disponible |
-| 06     | 20/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 6/10 - Flexbox                                                     | Pas encore disponible |
-| 07     | 23/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 7/10 - Sélecteurs CSS poussés                                      | Pas encore disponible |
-| 08     | 25/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 8/10 - Utiliser des fonts personnalisée et créer une font d'icônes | Pas encore disponible |
-| 09     | 30/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 9/10 - Les transitions                                             | Pas encore disponible |
-| 10     | 31/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 10/10 - Les animations                                             | Pas encore disponible |
+| Numéro | Date       | Heure     | Titre                                                                                               | Replay                                               |
+| ------ | ---------- | --------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| 01     | 09/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 1/10 - HTML iframes et formulaires                                 | https://app.studi.fr/#/dashboard/events/33194/replay |
+| 02     | 10/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé ) - 2/10 - Le SVG                                                     | Pas encore disponible                                |
+| 03     | 12/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 3/10 - Le SVG                                                      | Pas encore disponible                                |
+| 04     | 16/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 4/10 - CSS les unités                                              | Pas encore disponible                                |
+| 05     | 18/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 5/10 - Flexbox                                                     | Pas encore disponible                                |
+| 06     | 20/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 6/10 - Flexbox                                                     | Pas encore disponible                                |
+| 07     | 23/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 7/10 - Sélecteurs CSS poussés                                      | Pas encore disponible                                |
+| 08     | 25/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 8/10 - Utiliser des fonts personnalisée et créer une font d'icônes | Pas encore disponible                                |
+| 09     | 30/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 9/10 - Les transitions                                             | Pas encore disponible                                |
+| 10     | 31/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 10/10 - Les animations                                             | Pas encore disponible                                |
 
 ## Ressources
