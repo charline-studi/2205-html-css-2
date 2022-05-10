@@ -37,3 +37,5 @@ Si vous n'avez pas les bases en HTML & CSS je vous invite à suivre la première
 - [📖 Iframe](https://developer.mozilla.org/fr/docs/Web/HTML/Element/iframe)
 - [📖 Youtube](https://developers.google.com/youtube/player_parameters?hl=fr)
 - [📖 Form](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Form)
+- [📖 SVG: Liste des éléments](https://developer.mozilla.org/fr/docs/Web/SVG/Element)
+- [📖 SVG: preserveAspectRatio](https://developer.mozilla.org/fr/docs/Web/SVG/Attribute/preserveAspectRatio)
