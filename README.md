@@ -22,7 +22,7 @@ Si vous n'avez pas les bases en HTML & CSS je vous invite à suivre la première
 | Numéro | Date       | Heure     | Titre                                                                                               | Replay                                               |
 | ------ | ---------- | --------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
 | 01     | 09/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 1/10 - HTML iframes et formulaires                                 | https://app.studi.fr/#/dashboard/events/33194/replay |
-| 02     | 10/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé ) - 2/10 - Le SVG                                                     | Pas encore disponible                                |
+| 02     | 10/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé ) - 2/10 - Le SVG                                                     | https://app.studi.fr/#/dashboard/events/33197/replay |
 | 03     | 12/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 3/10 - Le SVG                                                      | Pas encore disponible                                |
 | 04     | 16/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 4/10 - CSS les unités                                              | Pas encore disponible                                |
 | 05     | 18/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 5/10 - Flexbox                                                     | Pas encore disponible                                |
