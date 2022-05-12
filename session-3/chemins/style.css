@@ -1,0 +1,17 @@
+#myPath {
+  stroke: green;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+
+  animation: myDrawing 5s linear;
+}
+
+@keyframes myDrawing {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

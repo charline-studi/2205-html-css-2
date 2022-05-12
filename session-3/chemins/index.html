@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>SVG : Paths</h1>
+
+    <svg
+      width="500px"
+      height="500px"
+      viewBox="0 0 100 100"
+      style="background-color: grey"
+    >
+      <path
+        fill="transparent"
+        stroke="black"
+        stroke-width="1"
+        d="M22.5,48.5c0,0,19,62,29,50s5-26,23-31s31,9,23,26"
+        id="myPath"
+      />
+      <circle cx="0" cy="0" r="10" fill="red">
+        <animateMotion dur="3s" fill="freeze">
+          <mpath xlink:href="#myPath" />
+        </animateMotion>
+      </circle>
+    </svg>
+  </body>
+</html>
