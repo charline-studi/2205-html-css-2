@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  width: 50%;
+  height: 500px;
+  border: solid 3px black;
+}
+
+.cover {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: tomato;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+.squarePx {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.squarePrct {
+  width: 50%;
+  height: 50%;
+  background-color: purple;
+}
+
+.squarePrct2 {
+  width: 25vw;
+  height: 25vh;
+  background-color: orange;
+}
+
+.squareV {
+  width: 50vw; /* Viewport Width */
+  height: 50vh; /* Viewport Height */
+  background-color: green;
+}
+
+.squareVw {
+  width: 50vw;
+  height: 30vw;
+  background-color: blue;
+}
+
+.grand-parent {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+}
+
+/* Si j'efface la taille de mon parent, cela impactera l'enfant */
+.parent {
+  background-color: grey;
+  width: 50%;
+  height: 50%;
+}
+
+.enfant {
+  background-color: black;
+  width: 50%;
+  height: 50%;
+}
+
+.squareMin {
+  width: 50vmin; /* La valeur la plus petite entre la width et la height */
+  height: 50vmin;
+  background-color: aqua;
+}
+
+.squareMax {
+  width: 50vmax; /* La valeur la plus grande entre la width et la height */
+  height: 50vmax;
+  background-color: bisque;
+}
+
+/* REM : Root em */
+
+html {
+  font-size: 62.5%; /* 10 * 100 / 16 = 62.5 */
+}
+
+/*
+16 | 100
+10 | x ?
+*/
+
+.container-texts {
+  border: solid 2px black;
+}
+
+.para1 {
+  /* font-size: 8px; */
+  font-size: 0.5rem;
+}
+
+.para2 {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.para3 {
+  /* font-size: 80px; */
+  font-size: 5rem;
+}
+
+.myDiv {
+  width: 6rem;
+  height: 8rem;
+  background-color: pink;
+}
+
+.container-em {
+  font-size: 30px;
+}
+
+.p1 {
+  font-size: 1em;
+}
+
+.p2 {
+  font-size: 2em;
+}
