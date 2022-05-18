@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-a {
+  width: 100%;
+  background-color: orange;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.section-a__container {
+  width: 750px;
+  border: solid 1px black;
+  display: flex;
+}
+
+.section-a__col {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  /* Version "raccourcie" : */
+  /* flex: 1 0 0; */
+}
+
+.section-a__col--right {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.section-a__col--left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-a__title {
+  margin-bottom: 50px;
+}
+
+.section-b {
+  width: 100%;
+  background-color: tomato;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 100px;
+}

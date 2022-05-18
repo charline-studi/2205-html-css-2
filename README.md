@@ -25,7 +25,7 @@ Si vous n'avez pas les bases en HTML & CSS je vous invite à suivre la première
 | 02     | 10/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé ) - 2/10 - Le SVG                                                     | https://app.studi.fr/#/dashboard/events/33197/replay |
 | 03     | 12/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 3/10 - Le SVG                                                      | https://app.studi.fr/#/dashboard/events/33200/replay |
 | 04     | 16/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 4/10 - CSS les unités                                              | https://app.studi.fr/#/dashboard/events/33393/replay |
-| 05     | 18/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 5/10 - Flexbox                                                     | Pas encore disponible                                |
+| 05     | 18/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 5/10 - Flexbox                                                     | https://app.studi.fr/#/dashboard/events/33394/replay |
 | 06     | 20/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 6/10 - Flexbox                                                     | Pas encore disponible                                |
 | 07     | 23/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 7/10 - Sélecteurs CSS poussés                                      | Pas encore disponible                                |
 | 08     | 25/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 8/10 - Utiliser des fonts personnalisée et créer une font d'icônes | Pas encore disponible                                |
@@ -43,3 +43,4 @@ Si vous n'avez pas les bases en HTML & CSS je vous invite à suivre la première
 - [💡 Line Animation SVG](https://css-tricks.com/svg-line-animation-works/)
 - [💡 Lottie.js](https://lottiefiles.com/animation/js)
 - [💡 Cas d'utilisation vmin / vmax ](https://css-tricks.com/simple-little-use-case-vmin/)
+- [📖 Guide flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
