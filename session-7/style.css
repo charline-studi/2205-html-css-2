@@ -1,0 +1,137 @@
+body {
+  background-color: grey;
+}
+
+/* 
+Les sélecteurs simples.
+
+Il existe une hiérachie entre les sélecteurs simples : 
+de type < de class < que d'identifiant
+*/
+#p {
+  color: purple;
+}
+
+.p {
+  color: green;
+}
+
+p {
+  color: red;
+}
+
+/* * {
+  border: solid 1px blue;
+} */
+
+/*
+Le sélecteur d'attribut
+*= : Contient les caractères
+$= : Fini par
+~= : Contient le mot
+^= : Commence par
+*/
+
+[attribut="valeur"] {
+  border: solid 3px orange;
+}
+
+[href] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+[href*="http"] {
+  background-color: red;
+  color: black;
+}
+
+[href*="https"] {
+  background-color: green;
+  color: white;
+}
+
+[href$=".fr"]:after {
+  content: " - [FR]";
+  font-style: italic;
+}
+
+[href$=".com"]:after {
+  content: " - [EN]";
+  font-style: italic;
+}
+
+[class~="link"] {
+  opacity: 0.5;
+  /* font-family: serif; */
+}
+
+[href^="mailto:"]:before {
+  content: "📧";
+}
+
+/*
+Importance des sélecteurs
+de type < de classe = d'attribut < d'identifiant
+*/
+
+span {
+  color: red;
+}
+
+.span {
+  color: green;
+}
+
+#span {
+  color: brown;
+}
+
+[attr="span"] {
+  color: white;
+}
+
+/* Les combinateurs 
+" " : Sélectionne les descendants
+">" : Sélectionne les enfants directs
+"+" : Sélectionne l'élement suivant direct
+"~" : Sélectionne tous les éléments suivants
+*/
+
+.list li {
+  border: solid 1px yellow;
+}
+
+.list > li {
+  border: solid 1px purple;
+}
+
+.section-combinateurs p {
+  color: initial;
+}
+
+.section-combinateurs .title {
+  margin-bottom: 100px;
+}
+
+.section-combinateurs p + p {
+  font-size: 30px;
+}
+
+.section-combinateurs .li ~ li {
+  background-color: aquamarine;
+}
+
+/* Les pseudo class */
+
+.section-pseudo-class p {
+  color: initial;
+}
+
+.section-pseudo-class p:not(.red, .yellow) {
+  border: solid 1px black;
+}
+
+.section-pseudo-class .red:not(p) {
+  background-color: red;
+}

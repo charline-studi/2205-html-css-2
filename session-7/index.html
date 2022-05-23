@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les sélecteurs CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Les sélecteurs CSS</h1>
+
+    <section>
+      <h2 class="title">Les sélecteurs simples</h2>
+      <p>De type</p>
+      <p class="p">De class</p>
+      <p id="p" class="p">D'identifiant</p>
+    </section>
+
+    <section>
+      <h2 class="title">Le sélecteur d'attribut</h2>
+      <div attribut="valeur">attribut personnalisé</div>
+      <a href="https://www.google.fr" target="_blank">Vers google</a>
+      <a class="link" href="http://www.firefox.fr" target="_blank"
+        >Vers firefox</a
+      >
+      <a class="link" href="https://www.mail.com">Mail .com</a>
+      <a href="https://www.mail.fr">Mail .fr</a>
+      <a href="mailto:studi@charline-laporte.fr">Me contacter</a>
+
+      <span class="span" id="span" attr="span"
+        >Span : tester priorité de sélecteur</span
+      >
+    </section>
+
+    <section class="section-combinateurs">
+      <h2 class="title">Les combinateurs</h2>
+      <ul class="list">
+        <li>
+          <p>Mon paragraphe 1</p>
+          <ul>
+            <li>Sous-liste 1</li>
+            <li>Sous-liste 2</li>
+            <li>Sous-liste 3</li>
+          </ul>
+        </li>
+        <li class="li">
+          <p>Mon paragraphe 1</p>
+          <p>Mon paragraphe 2</p>
+        </li>
+        <li>
+          <p>Mon paragraphe 1</p>
+          <p>Mon paragraphe 2</p>
+        </li>
+        <li>
+          <p>Mon paragraphe 1</p>
+          <p>Mon paragraphe 2</p>
+          <span>Mon span</span>
+          <p>Mon paragraphe 3</p>
+        </li>
+      </ul>
+      <ul>
+        <li>Ma seconde liste</li>
+      </ul>
+    </section>
+
+    <section class="section-pseudo-class">
+      <h2>Pseudo classes</h2>
+      <div>
+        <p class="red">Rouge</p>
+        <p class="green">Vert</p>
+        <p class="blue">Bleu</p>
+        <p class="purple">Violet</p>
+        <p class="orange">Orange</p>
+        <p class="yellow">Jaune</p>
+        <div class="red">Ma div rouge</div>
+      </div>
+    </section>
+  </body>
+</html>
