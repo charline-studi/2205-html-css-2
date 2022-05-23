@@ -27,7 +27,7 @@ Si vous n'avez pas les bases en HTML & CSS je vous invite à suivre la première
 | 04     | 16/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 4/10 - CSS les unités                                              | https://app.studi.fr/#/dashboard/events/33393/replay |
 | 05     | 18/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 5/10 - Flexbox                                                     | https://app.studi.fr/#/dashboard/events/33394/replay |
 | 06     | 20/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 6/10 - Flexbox                                                     | https://app.studi.fr/#/dashboard/events/33395/replay |
-| 07     | 23/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 7/10 - Sélecteurs CSS poussés                                      | Pas encore disponible                                |
+| 07     | 23/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 7/10 - Sélecteurs CSS poussés                                      | https://app.studi.fr/#/dashboard/events/33396/replay |
 | 08     | 25/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 8/10 - Utiliser des fonts personnalisée et créer une font d'icônes | Pas encore disponible                                |
 | 09     | 30/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 9/10 - Les transitions                                             | Pas encore disponible                                |
 | 10     | 31/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 10/10 - Les animations                                             | Pas encore disponible                                |
@@ -44,3 +44,4 @@ Si vous n'avez pas les bases en HTML & CSS je vous invite à suivre la première
 - [💡 Lottie.js](https://lottiefiles.com/animation/js)
 - [💡 Cas d'utilisation vmin / vmax ](https://css-tricks.com/simple-little-use-case-vmin/)
 - [📖 Guide flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [📖 Sélecteurs CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Selectors)
