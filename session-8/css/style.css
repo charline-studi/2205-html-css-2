@@ -1,0 +1,43 @@
+body {
+  background-color: grey;
+}
+
+.websafe .arial {
+  font-family: Arial, sans-serif;
+}
+
+.websafe .courier {
+  font-family: "Courier New", monospace;
+}
+
+.websafe .times {
+  font-family: "Times New Roman", serif;
+}
+
+.google-font .macondo {
+  font-family: "Macondo", cursive;
+}
+
+.google-font .smooch {
+  font-family: "Smooch", cursive;
+}
+
+.font-custom .roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-icone .icon-books {
+  color: red;
+}
+
+.font-icone .icon-books:hover {
+  color: yellow;
+}
+
+.font-icone .icon-folder-open {
+  font-size: 50px;
+}
+
+.font-icone .icon-folder-download {
+  font-size: 10px;
+}
