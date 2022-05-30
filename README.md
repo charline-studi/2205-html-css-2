@@ -29,7 +29,7 @@ Si vous n'avez pas les bases en HTML & CSS je vous invite à suivre la première
 | 06     | 20/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 6/10 - Flexbox                                                     | https://app.studi.fr/#/dashboard/events/33395/replay |
 | 07     | 23/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 7/10 - Sélecteurs CSS poussés                                      | https://app.studi.fr/#/dashboard/events/33396/replay |
 | 08     | 25/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 8/10 - Utiliser des fonts personnalisée et créer une font d'icônes | https://app.studi.fr/#/dashboard/events/33397/replay |
-| 09     | 30/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 9/10 - Les transitions                                             | Pas encore disponible                                |
+| 09     | 30/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 9/10 - Les transitions                                             | https://app.studi.fr/#/dashboard/events/33398/replay |
 | 10     | 31/05/2022 | 13h - 14h | HTML & CSS (niveau 2 / avancé) - 10/10 - Les animations                                             | Pas encore disponible                                |
 
 ## Ressources
@@ -48,3 +48,4 @@ Si vous n'avez pas les bases en HTML & CSS je vous invite à suivre la première
 - [📖 Fonts web-safe](https://developer.mozilla.org/fr/docs/Learn/CSS/Styling_text/Fundamentals#polices_web_s%c3%bbres)
 - [💡 Générer une font](https://transfonter.org/)
 - [💡 Générer une font d'icone](https://icomoon.io/app/)
+- [💡 Générer cubic bezier](https://cubic-bezier.com/)

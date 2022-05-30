@@ -1,0 +1,101 @@
+body {
+  background-color: grey;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  /* transition-property: background-color;
+  transition-duration: 1s;
+  transition-delay: 1s;
+  transition-timing-function: linear; */
+
+  /*transition : property duration timing-function delay*/
+  transition: all 1s linear 1s,
+    transform 1s cubic-bezier(0.74, -0.01, 0.39, 1.87);
+}
+
+.square:hover {
+  transform: translateX(100px);
+  background-color: green;
+  border-radius: 100%;
+}
+
+.title {
+  /* text-decoration: underline; */
+  /* border-bottom: 2px solid red; */
+  display: inline-block;
+  position: relative;
+}
+
+.title:after {
+  content: "";
+  width: 0;
+  height: 10px;
+  background-color: yellow;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 0;
+
+  right: 0;
+
+  transition: width 500ms ease-out;
+}
+
+.title:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.letter {
+  display: inline-block;
+}
+
+.subtitle:hover .letter {
+  color: red;
+  transform: rotate(-45deg);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle p {
+  color: white;
+  /* display: none; */
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.circle:hover p {
+  opacity: 1;
+  /* display: block; */
+}
+
+.wrapper {
+  border: solid 1px black;
+  height: 50px;
+  overflow: auto;
+  transition: height 1s linear;
+}
+
+.wrapper:hover {
+  height: 100px;
+}
+
+.hi {
+  color: black;
+  transition: font-weight 1s linear;
+  position: relative;
+}
+
+.hi:hover {
+  font-weight: bold;
+}
