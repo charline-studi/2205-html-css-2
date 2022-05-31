@@ -1,0 +1,107 @@
+body {
+  background-color: grey;
+}
+
+.square {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  /* animation */
+  animation-name: change-color-form;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+
+@keyframes change-color-form {
+  0% {
+    background-color: black;
+    border-radius: 0;
+  }
+
+  20% {
+    background-color: red;
+    border-radius: 100%;
+  }
+
+  50% {
+    background-color: green;
+    /* border-radius: 100%; */
+  }
+
+  75% {
+    background-color: purple;
+    /* border-radius: 100%; */
+  }
+
+  95% {
+    background-color: orange;
+    /* border-radius: 100%; */
+  }
+
+  100% {
+    background-color: white;
+    border-radius: 100%;
+  }
+}
+
+.second-square {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+
+  /* animation */
+  animation-name: move-horizontaly;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+
+  /* animation-iteration-count valeurs possibles => entier / infinite */
+  animation-iteration-count: 2;
+  /* animation-fill-mode valeurs possibles => forwards / backwards / none */
+  animation-fill-mode: forwards;
+  /* animation-direction valeurs possibles => normal / reverse / alternate / alternate-reverse */
+  animation-direction: alternate;
+}
+
+@keyframes move-horizontaly {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(500px);
+  }
+}
+
+.rectangle {
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  border: solid 1px black;
+  overflow: hidden;
+}
+
+.third-square {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation-name: move-horizontaly;
+  animation-duration: 2s;
+  animation-delay: 0;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+.rectangle:hover .third-square {
+  animation-play-state: running;
+}
+
+.fourth-square {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  /* duration | timing-function | delay | iteration-count | direction | fill-mode | play-state | name */
+  animation: change-color-form 5s linear 1s 2 normal forwards running;
+}
